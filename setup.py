@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='django-configurations-github-oauth',
-    version='2020.6.4',
+    version='2020.6.5',
     install_requires=[
         'django-configurations',
     ],
