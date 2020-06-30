@@ -1,12 +1,7 @@
-from setuptools import setup
+import setuptools
 
-setup(
+setuptools.setup(
     name='django-configurations-github-oauth',
-    version='2020.6.5',
-    install_requires=[
-        'django-configurations',
-    ],
-    packages=[
-        'django_configurations_github_oauth',
-    ],
+    install_requires=open('requirements.txt').read().splitlines(),
+    packages=setuptools.find_packages()
 )

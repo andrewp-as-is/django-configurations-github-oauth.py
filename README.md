@@ -1,15 +1,15 @@
 <!--
-https://pypi.org/project/readme-generator/
-https://pypi.org/project/python-readme-generator/
+https://readme42.com
 -->
 
-[![](https://img.shields.io/pypi/v/django-github-oauth-configuration.svg?maxAge=3600)](https://pypi.org/project/django-github-oauth-configuration/)
-[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
-[![Travis](https://api.travis-ci.org/andrewp-as-is/django-configurations-github-oauth.py.svg?branch=master)](https://travis-ci.org/andrewp-as-is/django-configurations-github-oauth.py/)
 
-#### Installation
+[![](https://img.shields.io/pypi/v/django-configurations-github-oauth.svg?maxAge=3600)](https://pypi.org/project/django-configurations-github-oauth/)
+[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+[![](https://github.com/andrewp-as-is/django-configurations-github-oauth.py/workflows/tests42/badge.svg)](https://github.com/andrewp-as-is/django-configurations-github-oauth.py/actions)
+
+### Installation
 ```bash
-$ [sudo] pip install django-github-oauth-configuration
+$ [sudo] pip install django-configurations-github-oauth
 ```
 
 ##### `settings.py`
@@ -22,10 +22,10 @@ class Base(GithubOAuthConfiguration,...):
 
 ##### `.env`
 ```bash
-GITHUB_OAUTH_CLIENT_ID=CLIENT_ID
-GITHUB_OAUTH_SECRET=OAUTH_SECRET
-GITHUB_OAUTH_CALLBACK_URL=http://127.0.0.1:8000/github-oauth/callback
-GITHUB_OAUTH_SCOPES=user # optional
+DJANGO_GITHUB_OAUTH_CLIENT_ID=CLIENT_IDs
+DJANGO_GITHUB_OAUTH_SECRET=OAUTH_SECRET
+DJANGO_GITHUB_OAUTH_CALLBACK_URL=http://127.0.0.1:8000/
+DJANGO_GITHUB_OAUTH_SCOPES=user,repo
 ```
 
 #### Links
@@ -33,5 +33,5 @@ GITHUB_OAUTH_SCOPES=user # optional
 +   [github.com/settings/developers](https://github.com/settings/developers)
 
 <p align="center">
-    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
+    <a href="https://readme42.com/">readme42.com</a>
 </p>
